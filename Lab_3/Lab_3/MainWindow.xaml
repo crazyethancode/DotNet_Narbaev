@@ -1,0 +1,32 @@
+﻿<Window x:Class="Lab_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="AddButton" Content="Добавить" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="AddButton_Click"/>
+        <Button x:Name="OutputButton" Content="Поиск" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Width="75" Click="OutputButton_Click"/>
+        <Button x:Name="EditButton" Content="Изменить" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="75" Click="EditButton_Click"/>
+        <Button x:Name="DeleteButton" Content="Удалить" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Width="75" Click="DeleteButton_Click"/>
+        <Button x:Name="ExitButton" Content="Выход" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="75" Click="ExitButton_Click"/>
+        <Button x:Name="Button1" Content="Просмотр таблицы" HorizontalAlignment="Left" Margin="585,262,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+        <DataGrid x:Name="DataGrid" Margin="66,241,230,44"/>
+
+        <Label Content="Бренд" HorizontalAlignment="Left" Margin="124,51,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="brand" HorizontalAlignment="Left" Height="20" Margin="203,51,0,0" VerticalAlignment="Top" Width="254"/>
+
+        <Label Content="Модель" HorizontalAlignment="Left" Margin="124,81,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="model" HorizontalAlignment="Left" Height="20" Margin="203,81,0,0" VerticalAlignment="Top" Width="254"/>
+
+        <Label Content="Размер" HorizontalAlignment="Left" Margin="124,111,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="size" HorizontalAlignment="Left" Height="20" Margin="203,111,0,0" VerticalAlignment="Top" Width="254"/>
+
+        <Label Content="Разрешение" HorizontalAlignment="Left" Margin="124,141,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="resolution" HorizontalAlignment="Left" Height="20" Margin="203,141,0,0" VerticalAlignment="Top" Width="254"/>
+
+        <Label Content="Частота" HorizontalAlignment="Left" Margin="124,171,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="refreshRate" HorizontalAlignment="Left" Height="20" Margin="203,171,0,0" VerticalAlignment="Top" Width="254"/>
+        <Label Content="ИД" HorizontalAlignment="Left" Margin="124,26,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="id" HorizontalAlignment="Left" Height="20" Margin="203,26,0,0" VerticalAlignment="Top" Width="254"/>
+    </Grid>
+</Window>
